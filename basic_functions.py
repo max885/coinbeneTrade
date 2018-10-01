@@ -524,12 +524,3 @@ def check_sell_position(sell_price, bit_type, coin_type):
             else:
                 print 'other api error'
                 return 'Error api'
-
-
-def test111(a,b,c):
-    if a>3:
-        return True
-    if b >4:
-        return False
-    if c>6:
-        return 4
